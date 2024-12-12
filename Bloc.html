@@ -10,8 +10,8 @@
     <header>
         <h1>Bloc de notas</h1>
         <form>
-            <label>Tema:</label>
-            <select id="label" for="tema">
+            <label id="label" for="tema">Tema:</label>
+            <select name="tema" id="tema" onchange="color(this.value)">
                 <option class="claro" value="">🌞Claro</option>
                 <option class="oscuro" value="">🌙Oscuro</option>
                 <option class="azul" value="">🌊Azul</option>
@@ -21,20 +21,21 @@
         </form>
     </header>
 
-    <form>
+    <form id="Formulario">
         <br>
         <textarea rows="10" placeholder="Esribe tu nota aquí.."></textarea>
         <input type="button" value="Añade la nota">
     </form>
 
-    <div>
+    <div class="content" id="content">
         <h2>Notas</h2>
+        <h4>Todavía no hay notas🍃</h4>
     </div>
 
 
 
 
 
-   
+   <script src="script.html"></script>
 </body>
 </html>

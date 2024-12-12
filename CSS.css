@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
 header {
     color: white;
     background-color: rgb(0, 153, 255);
@@ -6,11 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
+
 }
 textarea {
     width: 95%;        
@@ -30,4 +31,59 @@ input {
     margin: 2%;
     width: 150px;
     height: 30px;
+}
+.content {
+    margin: 20px;
+}
+
+
+
+
+/* COLOR CLARO */
+body.claro {
+    background-color: rgb(241, 219, 176);
+}
+header.claro {
+    background-color: orange;
+    color: black;
+}
+
+/* COLOR OSCURO */
+body.oscuro {
+    background-color: grey;
+    color: white;
+}
+header.oscuro {
+    background-color: rgb(156, 156, 156);
+    color: white;
+}
+
+/* COLOR ROSA */
+body.rosa {
+    background-color: pink;
+    color:  rgb(183, 74, 187);
+}
+header.rosa {
+    background-color: rgb(226, 143, 226);
+    color: rgb(183, 74, 187);
+}
+
+/* COLOR VERDE */
+body.verde {
+    background-color: rgb(173, 223, 173);
+    color: rgb(3, 88, 3);
+}
+header.verde {
+    background-color: rgb(143, 223, 143);
+    color: rgb(3, 88, 3);
+}
+
+/* COLOR AZUL */
+body.azul {
+    background-color: rgb(173, 243, 243);
+    color: rgba(4, 43, 94, 0.733);
+}
+header.azul {
+    background-color: rgba(1, 225, 255, 0.856);
+    color: rgba(4, 43, 94, 0.733);
 }
